@@ -1,18 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import PageHeader from '../components/PageHeader';
 
 
 const Pi = () => (
   <Layout>
-    <div className="page-header">
-      <div className="row">
-        <div className="col-lg-12">
-          <h1 className="bd-title">
-            Pi
-          </h1>
-        </div>
-      </div>
-    </div>
+    <PageHeader title="Pi" />
     <div className="row">
       <div className="col-lg-12">
         <p>
@@ -36,8 +29,12 @@ const Pi = () => (
           0353018529 6899577362 2599413891 2497217752 8347913151 5574857242
         </p>
         <p>
-          Odhad π na 1120 desetinných míst učinili v roce 1948 John Wrench a Levi Smith
-          pomocí kalkulačky. Byl to nejpřesnější odhad π před příchodem počítačů.
+          The most accurate calculation of π before the computer era.
+        </p>
+        <p>
+          <i>
+            - 1948, John Wrench and Levi Smith
+          </i>
         </p>
       </div>
     </div>

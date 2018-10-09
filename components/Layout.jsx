@@ -21,6 +21,13 @@ const Layout = ({ children }) => (
           margin-bottom: .5rem;
           font-weight: 300;
         }
+        .col {
+          display: flex;
+        }
+        .card {
+          width: 200px;
+          flex-grow: 1;
+        }
       `}
     </style>
     <Navbar />
