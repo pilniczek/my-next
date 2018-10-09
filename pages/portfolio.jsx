@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import Iterator from '../components/Iterator';
 import PageHeader from '../components/PageHeader';
 import CardExtended from '../components/CardExtended';
+import Quote from '../components/Quote';
 import data from '../data/portfolio.json';
 
 const cards = data;
@@ -26,6 +27,7 @@ const Portfolio = () => (
         )}
       />
     </div>
+    <Quote text="Do. Or do not. There is no try." author="Yoda" />
   </Layout>
 );
 

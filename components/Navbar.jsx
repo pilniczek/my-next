@@ -12,7 +12,7 @@ const Navbar = () => (
       <div className="collapse navbar-collapse" id="navbarColor02">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <Link href="/"><button className="nav-link" type="button">Home</button></Link>
+            <Link href="/"><button className="nav-link" type="button">About</button></Link>
           </li>
           <li className="nav-item active">
             <Link href="/portfolio"><button className="nav-link" type="button">Portfolio</button></Link>
