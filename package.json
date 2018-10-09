@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "Testing project. Get familiar with next.js.",
   "author": "Tom Pilnaj <pilnaj.t@gmail.com>",
+  "license": "UNLICENSED",
   "repository": {
+    "type" : "git",
+    "url" : "https://github.com/pilniczek/next"
+  },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
@@ -18,5 +22,10 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   }
 }
