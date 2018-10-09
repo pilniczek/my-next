@@ -28,6 +28,16 @@ const Layout = ({ children }) => (
           width: 200px;
           flex-grow: 1;
         }
+        .card-body {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+        }
+        .card-links > .card-link {
+          display: block;
+          margin: 0;
+          padding: 0;
+        }
       `}
     </style>
     <Navbar />

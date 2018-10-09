@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.jsx");
 /* harmony import */ var _components_Iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Iterator */ "./components/Iterator.jsx");
 /* harmony import */ var _components_PageHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PageHeader */ "./components/PageHeader.jsx");
-/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Card */ "./components/Card.jsx");
+/* harmony import */ var _components_CardExtended__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CardExtended */ "./components/CardExtended.jsx");
 /* harmony import */ var _data_portfolio_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/portfolio.json */ "./data/portfolio.json");
 var _data_portfolio_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/portfolio.json */ "./data/portfolio.json", 1);
 var _jsxFileName = "G:\\_TPI\\next\\pages\\portfolio.jsx";
@@ -56,7 +56,8 @@ var Portfolio = function Portfolio() {
         title: item.title,
         subtitle: item.subtitle,
         content: item.content,
-        links: item.links
+        links: item.links,
+        influence: item.influence
       };
     }),
     Component: function Component(props) {
@@ -64,13 +65,13 @@ var Portfolio = function Portfolio() {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({}, props, {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardExtended__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({}, props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 24
         },
         __self: this
       })));
@@ -107,4 +108,4 @@ var Portfolio = function Portfolio() {
 /***/ })
 
 })
-//# sourceMappingURL=portfolio.js.f43f72950b1e45405cd9.hot-update.js.map
+//# sourceMappingURL=portfolio.js.deaad7772937f27fa67d.hot-update.js.map

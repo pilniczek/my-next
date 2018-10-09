@@ -1,9 +1,9 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\portfolio.js"],{
 
-/***/ "./components/Card.jsx":
-/*!*****************************!*\
-  !*** ./components/Card.jsx ***!
-  \*****************************/
+/***/ "./components/CardExtended.jsx":
+/*!*************************************!*\
+  !*** ./components/CardExtended.jsx ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14,58 +14,80 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Iterator */ "./components/Iterator.jsx");
-var _jsxFileName = "G:\\_TPI\\next\\components\\Card.jsx";
+var _jsxFileName = "G:\\_TPI\\next\\components\\CardExtended.jsx";
 
 
 
 
-var Card = function Card(_ref) {
+var CardExtended = function CardExtended(_ref) {
   var title = _ref.title,
       subtitle = _ref.subtitle,
       content = _ref.content,
-      links = _ref.links;
+      links = _ref.links,
+      influence = _ref.influence;
+  var colors = {
+    'Omnio Digital': 'warning',
+    Zaraguza: 'danger',
+    SiteOne: 'info',
+    ShopUP: 'success'
+  };
+  var chosenColor = colors[subtitle] || '';
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card mb-4",
+    className: "card mb-4 border-".concat(chosenColor),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     className: "card-header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 18
     },
     __self: this
   }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 21
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "card-subtitle text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 23
     },
     __self: this
-  }, subtitle)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text-".concat(chosenColor),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, subtitle), ", ".concat(influence, " influence"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 30
     },
     __self: this
-  }, content), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Iterator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, content), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-links",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Iterator__WEBPACK_IMPORTED_MODULE_2__["default"], {
     items: links.map(function (item) {
       return {
         href: item.href,
@@ -82,26 +104,27 @@ var Card = function Card(_ref) {
         className: "card-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 40
         },
         __self: this
       }, label);
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 34
     },
     __self: this
-  })));
+  }))));
 };
 
-Card.propTypes = {
+CardExtended.propTypes = {
   title: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
   subtitle: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
   content: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired,
-  links: Object(prop_types__WEBPACK_IMPORTED_MODULE_1__["arrayOf"])(prop_types__WEBPACK_IMPORTED_MODULE_1__["object"]).isRequired
+  links: Object(prop_types__WEBPACK_IMPORTED_MODULE_1__["arrayOf"])(prop_types__WEBPACK_IMPORTED_MODULE_1__["object"]).isRequired,
+  influence: prop_types__WEBPACK_IMPORTED_MODULE_1__["string"].isRequired
 };
-/* harmony default export */ __webpack_exports__["default"] = (Card);
+/* harmony default export */ __webpack_exports__["default"] = (CardExtended);
 
 /***/ }),
 
@@ -227,20 +250,20 @@ var Layout = function Layout(_ref) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "511426682",
-    css: ".navbar .nav-link{border-top:0;border-bottom:0;min-width:60px;}.bd-title{margin-top:1rem;margin-bottom:.5rem;font-weight:300;}.col{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.card{width:200px;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkc6XFxfVFBJXFxuZXh0XFxjb21wb25lbnRzXFxMYXlvdXQuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlPLEFBR3dCLEFBS0csQUFLSCxBQUdELFlBQ0EsQ0FiSSxHQUtJLGFBSkwsT0FLQyxRQUpsQixRQUtBLHNCQUdBLFNBSUEiLCJmaWxlIjoiRzpcXF9UUElcXG5leHRcXGNvbXBvbmVudHNcXExheW91dC5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCB7IG5vZGUsIG9uZU9mVHlwZSwgYXJyYXlPZiB9IGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IE5hdmJhciBmcm9tICcuL05hdmJhcic7XG5cbmNvbnN0IExheW91dCA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPD5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Ub21hcyBQaTwvdGl0bGU+XG4gICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vYm9vdHN3YXRjaC5jb20vNC9zbGF0ZS9ib290c3RyYXAubWluLmNzc1wiIC8+XG4gICAgPC9IZWFkPlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPlxuICAgICAge2BcbiAgICAgICAgLm5hdmJhciAubmF2LWxpbmsgeyBcbiAgICAgICAgICBib3JkZXItdG9wOiAwO1xuICAgICAgICAgIGJvcmRlci1ib3R0b206IDA7XG4gICAgICAgICAgbWluLXdpZHRoOiA2MHB4O1xuICAgICAgICB9XG4gICAgICAgIC5iZC10aXRsZSB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAuNXJlbTtcbiAgICAgICAgICBmb250LXdlaWdodDogMzAwO1xuICAgICAgICB9XG4gICAgICAgIC5jb2wge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIH1cbiAgICAgICAgLmNhcmQge1xuICAgICAgICAgIHdpZHRoOiAyMDBweDtcbiAgICAgICAgICBmbGV4LWdyb3c6IDE7XG4gICAgICAgIH1cbiAgICAgIGB9XG4gICAgPC9zdHlsZT5cbiAgICA8TmF2YmFyIC8+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIHtjaGlsZHJlbn1cbiAgICA8L2Rpdj5cbiAgPC8+XG4pO1xuXG5MYXlvdXQucHJvcFR5cGVzID0ge1xuICBjaGlsZHJlbjogb25lT2ZUeXBlKFtcbiAgICBhcnJheU9mKG5vZGUpLFxuICAgIG5vZGUsXG4gIF0pLmlzUmVxdWlyZWQsXG59O1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXX0= */\n/*@ sourceURL=G:\\_TPI\\next\\components\\Layout.jsx */",
+    styleId: "99701004",
+    css: ".navbar .nav-link{border-top:0;border-bottom:0;min-width:60px;}.bd-title{margin-top:1rem;margin-bottom:.5rem;font-weight:300;}.col{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.card{width:200px;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}.card-body{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.card-links>.card-link{display:block;margin:0;padding:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkc6XFxfVFBJXFxuZXh0XFxjb21wb25lbnRzXFxMYXlvdXQuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlPLEFBR3dCLEFBS0csQUFLSCxBQUdELEFBSUMsQUFLQyxZQVJGLENBYkksQ0FzQlAsRUFqQlcsT0FrQlYsTUF0QkssSUF1QmpCLEdBbEJrQixRQUpsQixRQUtBLHNCQUdBLEFBT2dDLFNBSGhDLDBHQUl3Qiw4RUFDeEIiLCJmaWxlIjoiRzpcXF9UUElcXG5leHRcXGNvbXBvbmVudHNcXExheW91dC5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCB7IG5vZGUsIG9uZU9mVHlwZSwgYXJyYXlPZiB9IGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IE5hdmJhciBmcm9tICcuL05hdmJhcic7XG5cbmNvbnN0IExheW91dCA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPD5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Ub21hcyBQaTwvdGl0bGU+XG4gICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vYm9vdHN3YXRjaC5jb20vNC9zbGF0ZS9ib290c3RyYXAubWluLmNzc1wiIC8+XG4gICAgPC9IZWFkPlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPlxuICAgICAge2BcbiAgICAgICAgLm5hdmJhciAubmF2LWxpbmsgeyBcbiAgICAgICAgICBib3JkZXItdG9wOiAwO1xuICAgICAgICAgIGJvcmRlci1ib3R0b206IDA7XG4gICAgICAgICAgbWluLXdpZHRoOiA2MHB4O1xuICAgICAgICB9XG4gICAgICAgIC5iZC10aXRsZSB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAuNXJlbTtcbiAgICAgICAgICBmb250LXdlaWdodDogMzAwO1xuICAgICAgICB9XG4gICAgICAgIC5jb2wge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIH1cbiAgICAgICAgLmNhcmQge1xuICAgICAgICAgIHdpZHRoOiAyMDBweDtcbiAgICAgICAgICBmbGV4LWdyb3c6IDE7XG4gICAgICAgIH1cbiAgICAgICAgLmNhcmQtYm9keSB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgfVxuICAgICAgICAuY2FyZC1saW5rcyA+IC5jYXJkLWxpbmsge1xuICAgICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICB9XG4gICAgICBgfVxuICAgIDwvc3R5bGU+XG4gICAgPE5hdmJhciAvPlxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICB7Y2hpbGRyZW59XG4gICAgPC9kaXY+XG4gIDwvPlxuKTtcblxuTGF5b3V0LnByb3BUeXBlcyA9IHtcbiAgY2hpbGRyZW46IG9uZU9mVHlwZShbXG4gICAgYXJyYXlPZihub2RlKSxcbiAgICBub2RlLFxuICBdKS5pc1JlcXVpcmVkLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=G:\\_TPI\\next\\components\\Layout.jsx */",
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 43
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 44
     },
     __self: this
   }, children));
@@ -461,10 +484,10 @@ PageHeader.propTypes = {
 /*!*****************************!*\
   !*** ./data/portfolio.json ***!
   \*****************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, default */
 /***/ (function(module) {
 
-module.exports = [{"title":"NILA","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"https://www.nila.cz/","label":"Visit"}]},{"title":"Restaurant U Cedru","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.ucedru.cz/","label":"Visit"}]},{"title":"Karibu","influence":"smaller","subtitle":"Omnio Digital","content":"","links":[{"href":"http://karibu.cz/","label":"Visit"}]},{"title":"IQ Energy","influence":"smaller","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.iqenergy.cz/","label":"Visit"}]},{"title":"Teit Fitlab","influence":"smaller","subtitle":"Omnio Digital","content":"","links":[{"href":"https://www.teit.cz/","label":"Visit"}]},{"title":"Lovesavage","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.lovesavage.tv/","label":"Visit"}]},{"title":"TOTAL","influence":"moderate","subtitle":"Omnio Digital","content":"","links":[{"href":"https://novinky.total.cz/","label":"novinky"},{"href":"https://motorsport.total.cz/","label":"motorsport"},{"href":"https://formulae.total.cz/","label":"Formule-e"},{"href":"https://dakar.total.cz/","label":"Dakar"}]},{"title":"Olikla","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"https://www.olikla.cz/","label":"Olikla"},{"href":"https://www.czpharma.cz/","label":"CZ Pharma"}]},{"title":"Sprinklermorning","influence":"moderate","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.sprinklermorning.cz/","label":"Visit"}]}];
+module.exports = [{"title":"NILA","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"https://www.nila.cz/","label":"Visit"}]},{"title":"Restaurant U Cedru","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.ucedru.cz/","label":"Visit"}]},{"title":"Karibu","influence":"smaller","subtitle":"Omnio Digital","content":"","links":[{"href":"http://karibu.cz/","label":"Visit"}]},{"title":"IQ Energy","influence":"smaller","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.iqenergy.cz/","label":"Visit"}]},{"title":"Teit Fitlab","influence":"smaller","subtitle":"Omnio Digital","content":"","links":[{"href":"https://www.teit.cz/","label":"Visit"}]},{"title":"Lovesavage","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.lovesavage.tv/","label":"Visit"}]},{"title":"TOTAL","influence":"moderate","subtitle":"Omnio Digital","content":"","links":[{"href":"https://novinky.total.cz/","label":"novinky"},{"href":"https://motorsport.total.cz/","label":"motorsport"},{"href":"https://formulae.total.cz/","label":"Formule-e"},{"href":"https://dakar.total.cz/","label":"Dakar"}]},{"title":"Olikla","influence":"large","subtitle":"Omnio Digital","content":"","links":[{"href":"https://www.olikla.cz/","label":"Olikla"},{"href":"https://www.czpharma.cz/","label":"CZ Pharma"}]},{"title":"Sprinkler Morning","influence":"moderate","subtitle":"Omnio Digital","content":"","links":[{"href":"http://www.sprinklermorning.cz/","label":"Visit"}]},{"title":"Celaskon","influence":"large","subtitle":"ShopUP","content":"Not launched. Yet.","links":[{"href":"http://celaskon.cz/","label":"Visit"}]},{"title":"Technisféra","influence":"large","subtitle":"ShopUP","content":"","links":[{"href":"https://www.technisfera.cz/","label":"Visit"}]},{"title":"Senzakup","influence":"small","subtitle":"ShopUP","content":"","links":[{"href":"http://www.senzakup.cz/","label":"Visit"}]},{"title":"Skiandbike","influence":"small","subtitle":"ShopUP","content":"","links":[{"href":"https://www.skiandbike.cz/","label":"Visit"}]},{"title":"Korunni","influence":"small","subtitle":"ShopUP","content":"","links":[{"href":"https://www.korunni.cz/","label":"Visit"}]},{"title":"Fashion Arena shuttle bus","influence":"moderate","subtitle":"ShopUP","content":"","links":[{"href":"https://shuttlebus.fashion-arena.cz/","label":"Visit"}]},{"title":"Ovosan","influence":"small","subtitle":"ShopUP","content":"","links":[{"href":"https://jaknarakovinu.cz/","label":"Visit"}]},{"title":"Cesta z krize","influence":"moderate","subtitle":"ShopUP","content":"","links":[{"href":"https://www.linkaztracenedite.cz/","label":"Linka pro rodinu a školu"},{"href":"https://www.linkapsychickepomoci.cz/","label":"Linka první psychické pomoci"}]},{"title":"Airbank","influence":"small","subtitle":"SiteOne","content":"","links":[{"href":"https://www.airbank.cz/","label":"Visit"}]},{"title":"Home Credit","influence":"moderate/small","subtitle":"SiteOne","content":"","links":[{"href":"https://www.homecredit.cz/","label":"Visit CZ"},{"href":"https://www.homecredit.sk/","label":"Visit SK"}]},{"title":"Blue Style","influence":"moderate","subtitle":"SiteOne","content":"","links":[{"href":"https://www.blue-style.cz/","label":"Visit"}]},{"title":"Dermacol","influence":"small","subtitle":"SiteOne","content":"","links":[{"href":"https://www.dermacol.cz/","label":"Visit"}]}];
 
 /***/ }),
 
@@ -11784,7 +11807,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.jsx");
 /* harmony import */ var _components_Iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Iterator */ "./components/Iterator.jsx");
 /* harmony import */ var _components_PageHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PageHeader */ "./components/PageHeader.jsx");
-/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Card */ "./components/Card.jsx");
+/* harmony import */ var _components_CardExtended__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CardExtended */ "./components/CardExtended.jsx");
 /* harmony import */ var _data_portfolio_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/portfolio.json */ "./data/portfolio.json");
 var _data_portfolio_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/portfolio.json */ "./data/portfolio.json", 1);
 var _jsxFileName = "G:\\_TPI\\next\\pages\\portfolio.jsx";
@@ -11826,7 +11849,8 @@ var Portfolio = function Portfolio() {
         title: item.title,
         subtitle: item.subtitle,
         content: item.content,
-        links: item.links
+        links: item.links,
+        influence: item.influence
       };
     }),
     Component: function Component(props) {
@@ -11834,13 +11858,13 @@ var Portfolio = function Portfolio() {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({}, props, {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardExtended__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({}, props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 24
         },
         __self: this
       })));

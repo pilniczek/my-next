@@ -112,13 +112,165 @@
     ]
   },
   {
-    "title": "Sprinklermorning",
+    "title": "Sprinkler Morning",
     "influence": "moderate",
     "subtitle": "Omnio Digital",
     "content": "",
     "links": [
       {
         "href": "http://www.sprinklermorning.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Celaskon",
+    "influence": "large",
+    "subtitle": "ShopUP",
+    "content": "Not launched. Yet.",
+    "links": [
+      {
+        "href": "http://celaskon.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Technisféra",
+    "influence": "large",
+    "subtitle": "ShopUP",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.technisfera.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Senzakup",
+    "influence": "small",
+    "subtitle": "ShopUP",
+    "content": "",
+    "links": [
+      {
+        "href": "http://www.senzakup.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Skiandbike",
+    "influence": "small",
+    "subtitle": "ShopUP",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.skiandbike.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Korunni",
+    "influence": "small",
+    "subtitle": "ShopUP",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.korunni.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Fashion Arena shuttle bus",
+    "influence": "moderate",
+    "subtitle": "ShopUP",
+    "content": "",
+    "links": [
+      {
+        "href": "https://shuttlebus.fashion-arena.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Ovosan",
+    "influence": "small",
+    "subtitle": "ShopUP",
+    "content": "",
+    "links": [
+      {
+        "href": "https://jaknarakovinu.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Cesta z krize",
+    "influence": "moderate",
+    "subtitle": "ShopUP",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.linkaztracenedite.cz/",
+        "label": "Linka pro rodinu a školu"
+      },
+      {
+        "href": "https://www.linkapsychickepomoci.cz/",
+        "label": "Linka první psychické pomoci"
+      }
+    ]
+  },
+  {
+    "title": "Airbank",
+    "influence": "small",
+    "subtitle": "SiteOne",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.airbank.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Home Credit",
+    "influence": "moderate/small",
+    "subtitle": "SiteOne",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.homecredit.cz/",
+        "label": "Visit CZ"
+      },
+      {
+        "href": "https://www.homecredit.sk/",
+        "label": "Visit SK"
+      }
+    ]
+  },
+  {
+    "title": "Blue Style",
+    "influence": "moderate",
+    "subtitle": "SiteOne",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.blue-style.cz/",
+        "label": "Visit"
+      }
+    ]
+  },
+  {
+    "title": "Dermacol",
+    "influence": "small",
+    "subtitle": "SiteOne",
+    "content": "",
+    "links": [
+      {
+        "href": "https://www.dermacol.cz/",
         "label": "Visit"
       }
     ]
