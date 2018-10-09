@@ -38,6 +38,22 @@ const Layout = ({ children }) => (
           margin: 0;
           padding: 0;
         }
+        button {
+          background: transparent;
+        }
+        html {
+          overflow: -moz-scrollbars-vertical; 
+            overflow-y: scroll;
+        }
+        html {
+          overflow-y:scroll;
+        }
+        .nav-item {
+          text-align: center;
+        }
+        .nav-item:hover {
+          text-decoration: none;
+        }
       `}
     </style>
     <Navbar />

@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import ActiveLink from './ActiveLink';
 
 const Navbar = () => (
   <div className="container">
@@ -10,17 +10,20 @@ const Navbar = () => (
       </button>
 
       <div className="collapse navbar-collapse" id="navbarColor02">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <Link href="/"><button className="nav-link" type="button">About</button></Link>
-          </li>
-          <li className="nav-item active">
-            <Link href="/portfolio"><button className="nav-link" type="button">Portfolio</button></Link>
-          </li>
-          <li className="nav-item active">
-            <Link href="/pi"><button className="nav-link" type="button">Pi</button></Link>
-          </li>
-        </ul>
+        <div className="navbar-nav mr-auto">
+          <ActiveLink href="/" className="nav-item">
+            <span className="nav-link">About</span>
+          </ActiveLink>
+          <ActiveLink href="/portfolio" className="nav-item">
+            <span className="nav-link">Portfolio</span>
+          </ActiveLink>
+          <ActiveLink href="/contact" className="nav-item">
+            <span className="nav-link">Contact</span>
+          </ActiveLink>
+          <ActiveLink href="/pi" className="nav-item">
+            <span className="nav-link">Pi</span>
+          </ActiveLink>
+        </div>
       </div>
     </nav>
   </div>
