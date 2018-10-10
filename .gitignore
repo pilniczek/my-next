@@ -55,3 +55,4 @@ config.gypi
 
 # next.js
 .next
+out
