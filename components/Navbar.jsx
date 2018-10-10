@@ -3,9 +3,17 @@ import ActiveLink from './ActiveLink';
 
 const Navbar = () => (
   <div className="container">
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary p-0">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <span className="navbar-brand">Tomas Pilnaj</span>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarColor02"
+        aria-controls="navbarColor02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span className="navbar-toggler-icon" />
       </button>
 

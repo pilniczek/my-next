@@ -10,17 +10,29 @@ const Contact = () => (
     <div className="page-conent pb-4">
       <p>
         {'I used '}
-        <a href="https://cz.linkedin.com/in/tom-pilnaj" target="_blank">LinkedIn</a>
+        <a
+          href="https://cz.linkedin.com/in/tom-pilnaj"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
         {', but It is not the best way to contact me.'}
       </p>
       <p>
         {'Using an '}
-        <a href="mailto:pilnaj.t@gmail.com" target="_blank">e-mail</a>
+        <a href="mailto:pilnaj.t@gmail.com">e-mail</a>
         {' is much better.'}
       </p>
       <p>
         {'And you can follow me on '}
-        <a href="https://twitter.com/pilniczek" target="_blank">Twitter</a>
+        <a
+          href="https://twitter.com/pilniczek"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
         {'.'}
       </p>
     </div>
