@@ -22,7 +22,7 @@ const Portfolio = () => (
             influence: item.influence,
           }))}
           Component={props => (
-            <div className="col flex">
+            <div className="col-lg-4 col-md-6 col-sm-12 flex">
               <CardExtended {...props} />
             </div>
           )}
