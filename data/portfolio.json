@@ -149,7 +149,7 @@
   },
   {
     "title": "Senzakup",
-    "influence": "small",
+    "influence": "smaller",
     "subtitle": "ShopUP",
     "content": "",
     "links": [
@@ -161,7 +161,7 @@
   },
   {
     "title": "Skiandbike",
-    "influence": "small",
+    "influence": "smaller",
     "subtitle": "ShopUP",
     "content": "",
     "links": [
@@ -173,7 +173,7 @@
   },
   {
     "title": "Korunni",
-    "influence": "small",
+    "influence": "smaller",
     "subtitle": "ShopUP",
     "content": "",
     "links": [
@@ -197,7 +197,7 @@
   },
   {
     "title": "Ovosan",
-    "influence": "small",
+    "influence": "smaller",
     "subtitle": "ShopUP",
     "content": "",
     "links": [
@@ -225,7 +225,7 @@
   },
   {
     "title": "Airbank",
-    "influence": "small",
+    "influence": "smaller",
     "subtitle": "SiteOne",
     "content": "",
     "links": [
@@ -237,7 +237,7 @@
   },
   {
     "title": "Home Credit",
-    "influence": "moderate/small",
+    "influence": "moderate/smaller",
     "subtitle": "SiteOne",
     "content": "",
     "links": [
@@ -265,7 +265,7 @@
   },
   {
     "title": "Dermacol",
-    "influence": "small",
+    "influence": "smaller",
     "subtitle": "SiteOne",
     "content": "",
     "links": [
