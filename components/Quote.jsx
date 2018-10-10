@@ -4,7 +4,7 @@ import { string } from 'prop-types';
 const Quote = ({ text, author }) => (
   <div className="row">
     <div className="col">
-      <div className="bs-component">
+      <div className="bs-component jumbotron">
         <blockquote className="blockquote">
           <p className="mb-0">
             {text}

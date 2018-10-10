@@ -11,21 +11,23 @@ const cards = data;
 const Portfolio = () => (
   <Layout>
     <PageHeader title="Portfolio" />
-    <div className="row">
-      <Iterator
-        items={cards.map(item => ({
-          title: item.title,
-          subtitle: item.subtitle,
-          content: item.content,
-          links: item.links,
-          influence: item.influence,
-        }))}
-        Component={props => (
-          <div className="col">
-            <CardExtended {...props} />
-          </div>
-        )}
-      />
+    <div className="page-conent pb-4">
+      <div className="row">
+        <Iterator
+          items={cards.map(item => ({
+            title: item.title,
+            subtitle: item.subtitle,
+            content: item.content,
+            links: item.links,
+            influence: item.influence,
+          }))}
+          Component={props => (
+            <div className="col flex">
+              <CardExtended {...props} />
+            </div>
+          )}
+        />
+      </div>
     </div>
     <Quote text="Do. Or do not. There is no try." author="Yoda" />
   </Layout>

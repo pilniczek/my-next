@@ -20,9 +20,6 @@ const Navbar = () => (
           <ActiveLink href="/contact" className="nav-item">
             <span className="nav-link">Contact</span>
           </ActiveLink>
-          <ActiveLink href="/pi" className="nav-item">
-            <span className="nav-link">Pi</span>
-          </ActiveLink>
         </div>
       </div>
     </nav>

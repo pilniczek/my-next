@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
           margin-bottom: .5rem;
           font-weight: 300;
         }
-        .col {
+        .flex {
           display: flex;
         }
         .card {
@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
         }
         html {
           overflow: -moz-scrollbars-vertical; 
-            overflow-y: scroll;
+          overflow-y: scroll;
         }
         html {
           overflow-y:scroll;
@@ -53,6 +53,15 @@ const Layout = ({ children }) => (
         }
         .nav-item:hover {
           text-decoration: none;
+        }
+        img {
+          max-width: 100%;
+        }
+        .col-auto {
+          max-width: 100%;
+        }
+        p {
+          font-size: 1.171875rem;
         }
       `}
     </style>
