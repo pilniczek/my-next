@@ -62,12 +62,16 @@ const Layout = ({ children }) => (
         p {
           font-size: 1.171875rem;
         }
+        #__next {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          min-height: 100vh;
+        }
       `}
     </style>
     <Navbar />
-    <div className="container">
-      {children}
-    </div>
+    {children}
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

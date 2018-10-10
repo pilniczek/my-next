@@ -2,8 +2,8 @@ import React from 'react';
 import ActiveLink from './ActiveLink';
 
 const Navbar = () => (
-  <div className="container">
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div className="container">
       <span className="navbar-brand">Tomas Pilnaj</span>
       <button
         className="navbar-toggler"
@@ -30,8 +30,8 @@ const Navbar = () => (
           </ActiveLink>
         </div>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 );
 
 export default Navbar;

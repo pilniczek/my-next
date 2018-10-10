@@ -2,20 +2,18 @@ import React from 'react';
 import { string } from 'prop-types';
 
 const Quote = ({ text, author }) => (
-  <div className="row">
-    <div className="col">
-      <div className="bs-component jumbotron">
-        <blockquote className="blockquote">
-          <p className="mb-0">
-            {text}
-          </p>
-          <footer className="blockquote-footer">
-            <cite title="Source Title">
-              {author}
-            </cite>
-          </footer>
-        </blockquote>
-      </div>
+  <div className="jumbotron mb-0">
+    <div className="container">
+      <blockquote className="blockquote">
+        <p className="mb-0">
+          {text}
+        </p>
+        <footer className="blockquote-footer">
+          <cite title="Source Title">
+            {author}
+          </cite>
+        </footer>
+      </blockquote>
     </div>
   </div>
 );
