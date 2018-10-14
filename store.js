@@ -4,7 +4,13 @@ import thunkMiddleware from 'redux-thunk';
 import reducer from './modules';
 import { types } from './store/actions/uiActions';
 
-const exampleInitialState = {};
+const exampleInitialState = {
+  /* ui: {
+    toggle: {
+      menu: false,
+    },
+  }, */
+};
 
 export const actionTypes = types;
 

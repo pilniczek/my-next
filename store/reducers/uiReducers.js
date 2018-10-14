@@ -1,17 +1,12 @@
 import { combineReducers } from 'redux';
 import { types } from '../actions/uiActions';
 
-const toggle = (state = [], action = {}) => {
+const toggle = (state = {}, action = {}) => {
   switch (action.type) {
     case types.TOGGLE: {
-      const position = state.indexOf(action.id);
-      if (position !== -1) {
-        return state.filter(item => item !== state[position]);
-      }
-      return [
-        ...state,
-        action.id,
-      ];
+      return Object.assign({}, state, {
+        [action.id]: !action.open,
+      });
     }
     default: {
       return state;

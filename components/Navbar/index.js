@@ -5,14 +5,14 @@ import Navbar from './Navbar';
 
 
 const mapStateToProps = (state, locals) => ({
-  open: locals.open
-    ? uiSelectors.getToggle(state).indexOf(locals.id) === -1
-    : uiSelectors.getToggle(state).indexOf(locals.id) !== -1,
+  open: typeof locals.open === 'undefined' || uiSelectors.getToggle(state)[locals.id]
+    ? uiSelectors.getToggle(state)[locals.id]
+    : locals.open,
 });
 
 const mapDispatchToProps = dispatch => ({
   actions: {
-    toggle: id => dispatch(toggle(id)),
+    toggle: (id, open) => dispatch(toggle(id, open)),
   },
 });
 

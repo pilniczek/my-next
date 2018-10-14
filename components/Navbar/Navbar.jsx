@@ -5,7 +5,7 @@ import {
 import ActiveLink from '../ActiveLink';
 
 const Navbar = ({ id, open, actions: { toggle } }) => {
-  const handleClick = () => (toggle(id));
+  const handleClick = () => (toggle(id, open));
   const showed = open ? 'show' : '';
   const expanded = open ? 'true' : 'false';
   const collapsed = open ? 'collapsed' : '';
