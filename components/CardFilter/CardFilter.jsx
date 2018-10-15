@@ -11,28 +11,22 @@ const CardFilter = ({
     visible(id, isChecked);
   };
   return (
-    <div className="filter">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12 pb-5">
-            <label
-              htmlFor={id}
-              key={`label-${id}`}
-            >
-              <input
-                type="checkbox"
-                id={id}
-                key={`checkbox-${id}`}
-                name={name}
-                value="scales"
-                checked={isChecked}
-                onChange={handleChange}
-              />
-              {name}
-            </label>
-          </div>
-        </div>
-      </div>
+    <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+      <label
+        htmlFor={id}
+        key={`label-${id}`}
+      >
+        <input
+          type="checkbox"
+          id={id}
+          key={`checkbox-${id}`}
+          name={name}
+          value="scales"
+          checked={isChecked}
+          onChange={handleChange}
+        />
+        {name}
+      </label>
     </div>
   );
 };

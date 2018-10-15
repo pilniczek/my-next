@@ -16,7 +16,7 @@ const Portfolio = () => (
   <Layout>
     <div className="center">
       <PageHeader title="Portfolio" />
-      <div className="page-conent pb-4">
+      <div className="filter pb-4">
         <div className="container">
           <div className="row">
             <Iterator
