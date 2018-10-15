@@ -6,11 +6,11 @@ import Iterator from '../Iterator';
 
 
 const CardUltimate = ({
-  id, title, subtitle, content, links, influence, visible, className, company,
+  id, age, title, subtitle, content, links, influence, visible, className, company,
 }) => {
   if (visible) {
     return (
-      <div className={`${className}`} id={id} company={company}>
+      <div className={`${className}`} id={id} company={company} age={age}>
         <div className="card mb-4">
           <h4 className="card-header">
             {title}
@@ -18,7 +18,7 @@ const CardUltimate = ({
           <div className="card-body">
             <span className="card-subtitle text-muted">
               <i>
-                {`${subtitle}, ${influence} influence`}
+                {`${subtitle}, ${influence} influence, ${age} project`}
               </i>
             </span>
             <p className="card-text mb-2">
@@ -47,6 +47,7 @@ const CardUltimate = ({
 
 CardUltimate.propTypes = {
   id: string.isRequired,
+  age: string.isRequired,
   company: string.isRequired,
   title: string.isRequired,
   subtitle: string.isRequired,

@@ -14,12 +14,18 @@ const init = {
       siteone: true,
       shopup: true,
       zaraguza: false,
+      recent: true,
+      aging: false,
+      old: false,
     },
     checked: {
       'omnio-digital': true,
       siteone: true,
       shopup: true,
       zaraguza: false,
+      recent: true,
+      aging: false,
+      old: false,
     },
   },
 };

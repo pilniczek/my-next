@@ -7,10 +7,7 @@ import Quote from '../components/Quote';
 import CardFilter from '../components/CardFilter';
 import data from '../data/portfolio.json';
 
-const { portfolio } = data;
-
-// get filter filters
-const { filter } = data;
+const { portfolio, filterCompany, filterAge } = data;
 
 const Portfolio = () => (
   <Layout>
@@ -21,7 +18,23 @@ const Portfolio = () => (
           <div className="row">
             <Iterator
               items={
-                filter.map(item => ({
+                filterCompany.map(item => ({
+                  id: item.id,
+                  isChecked: item.checked,
+                  name: item.name,
+                }))
+              }
+              Component={props => (
+                <CardFilter
+                  {...props}
+                />
+              )}
+            />
+          </div>
+          <div className="row">
+            <Iterator
+              items={
+                filterAge.map(item => ({
                   id: item.id,
                   isChecked: item.checked,
                   name: item.name,
@@ -43,6 +56,7 @@ const Portfolio = () => (
               items={portfolio.map(item => ({
                 id: `portfolio-${item.id}`,
                 company: item.filter.companyId,
+                age: item.filter.age,
                 title: item.content.title,
                 subtitle: item.content.subtitle,
                 content: item.content.body,

@@ -4,7 +4,7 @@
       "id": "nila",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "aging",
         "technology": "",
         "job": ""
       },
@@ -26,7 +26,7 @@
       "id": "restaurant-u-cedru",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "old",
         "technology": "",
         "job": ""
       },
@@ -48,7 +48,7 @@
       "id": "karibu",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "old",
         "technology": "",
         "job": ""
       },
@@ -70,7 +70,7 @@
       "id": "iq-energy",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "old",
         "technology": "",
         "job": ""
       },
@@ -92,7 +92,7 @@
       "id": "teit-fitlab",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "old",
         "technology": "",
         "job": ""
       },
@@ -114,7 +114,7 @@
       "id": "lovesavage",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "old",
         "technology": "",
         "job": ""
       },
@@ -136,7 +136,7 @@
       "id": "total",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -170,7 +170,7 @@
       "id": "olikla",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "aging",
         "technology": "",
         "job": ""
       },
@@ -196,7 +196,7 @@
       "id": "sprinkler-morning",
       "filter": {
         "companyId": "omnio-digital",
-        "age": 0,
+        "age": "old",
         "technology": "",
         "job": ""
       },
@@ -218,7 +218,7 @@
       "id": "celaskon",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -240,7 +240,7 @@
       "id": "technisfera",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "aging",
         "technology": "",
         "job": ""
       },
@@ -262,7 +262,7 @@
       "id": "senzakup",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -284,7 +284,7 @@
       "id": "skiandbike",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -306,7 +306,7 @@
       "id": "korunni",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -328,7 +328,7 @@
       "id": "fashion-arena-shuttle-bus",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -350,7 +350,7 @@
       "id": "ovosan",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -372,7 +372,7 @@
       "id": "cesta-z-krize",
       "filter": {
         "companyId": "shopup",
-        "age": 0,
+        "age": "recent",
         "technology": "",
         "job": ""
       },
@@ -398,7 +398,7 @@
       "id": "airbank",
       "filter": {
         "companyId": "siteone",
-        "age": 0,
+        "age": "aging",
         "technology": "",
         "job": ""
       },
@@ -420,7 +420,7 @@
       "id": "home-credit",
       "filter": {
         "companyId": "siteone",
-        "age": 0,
+        "age": "aging",
         "technology": "",
         "job": ""
       },
@@ -446,7 +446,7 @@
       "id": "blue-style",
       "filter": {
         "companyId": "siteone",
-        "age": 0,
+        "age": "aging",
         "technology": "",
         "job": ""
       },
@@ -468,7 +468,7 @@
       "id": "dermacol",
       "filter": {
         "companyId": "siteone",
-        "age": 0,
+        "age": "aging",
         "technology": "",
         "job": ""
       },
@@ -487,7 +487,7 @@
       }
     }
   ],
-  "filter": [
+  "filterCompany": [
     {
       "id": "omnio-digital",
       "name": "Omnio Digital",
@@ -506,6 +506,26 @@
     {
       "id": "zaraguza",
       "name": "Zaraguza",
+      "checked": false
+    }
+  ],
+  "filterAge": [
+    {
+      "id": "recent",
+      "name": "recent",
+      "num": 0.5,
+      "checked": true
+    },
+    {
+      "id": "aging",
+      "name": "aging",
+      "num": 1,
+      "checked": false
+    },
+    {
+      "id": "old",
+      "name": "old",
+      "num": 2,
       "checked": false
     }
   ]

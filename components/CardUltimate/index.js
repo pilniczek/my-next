@@ -5,7 +5,7 @@ import CardUltimate from './CardUltimate';
 
 
 const mapStateToProps = (state, locals) => ({
-  visible: getVisible(state)[locals.company],
+  visible: getVisible(state)[locals.company] && getVisible(state)[locals.age],
 });
 
 const mapDispatchToProps = () => ({
