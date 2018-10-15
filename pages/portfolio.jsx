@@ -16,6 +16,9 @@ const Portfolio = () => (
       <div className="filter pb-4">
         <div className="container">
           <div className="row">
+            <div className="col-12">
+              <p className="lead">Projects by a company I worked for.</p>
+            </div>
             <Iterator
               items={
                 filterCompany.map(item => ({
@@ -32,6 +35,9 @@ const Portfolio = () => (
             />
           </div>
           <div className="row">
+            <div className="col-12">
+              <p className="lead">Projects by age.</p>
+            </div>
             <Iterator
               items={
                 filterAge.map(item => ({
