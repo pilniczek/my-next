@@ -1,13 +1,11 @@
 import { connect } from 'react-redux';
 import { toggle } from '../../store/actions/uiActions';
-import uiSelectors from '../../store/selectors/uiSelectors';
+import { getToggle } from '../../store/selectors/uiSelectors';
 import Navbar from './Navbar';
 
 
 const mapStateToProps = (state, locals) => ({
-  open: typeof locals.open === 'undefined' || uiSelectors.getToggle(state)[locals.id]
-    ? uiSelectors.getToggle(state)[locals.id]
-    : locals.open,
+  open: getToggle(state)[locals.id],
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -14,6 +14,34 @@ const toggle = (state = {}, action = {}) => {
   }
 };
 
+const visible = (state = {}, action = {}) => {
+  switch (action.type) {
+    case types.VISIBLE: {
+      return Object.assign({}, state, {
+        [action.id]: !action.isVisible,
+      });
+    }
+    default: {
+      return state;
+    }
+  }
+};
+
+const checked = (state = {}, action = {}) => {
+  switch (action.type) {
+    case types.CHECKED: {
+      return Object.assign({}, state, {
+        [action.id]: !action.isChecked,
+      });
+    }
+    default: {
+      return state;
+    }
+  }
+};
+
 export default combineReducers({
   toggle,
+  visible,
+  checked,
 });

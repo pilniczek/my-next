@@ -70,7 +70,7 @@ const Layout = ({ children }) => (
         }
       `}
     </style>
-    <Navbar open={false} id="menu" />
+    <Navbar id="menu" />
     {children}
   </>
 );

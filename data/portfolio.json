@@ -1,278 +1,512 @@
-[
-  {
-    "title": "NILA",
-    "influence": "large",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.nila.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Restaurant U Cedru",
-    "influence": "large",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "http://www.ucedru.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Karibu",
-    "influence": "smaller",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "http://karibu.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "IQ Energy",
-    "influence": "smaller",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "http://www.iqenergy.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Teit Fitlab",
-    "influence": "smaller",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.teit.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Lovesavage",
-    "influence": "large",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "http://www.lovesavage.tv/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "TOTAL",
-    "influence": "moderate",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "https://novinky.total.cz/",
-        "label": "novinky"
+{
+  "portfolio": [
+    {
+      "id": "nila",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
       },
-      {
-        "href": "https://motorsport.total.cz/",
-        "label": "motorsport"
+      "delete": false,
+      "content": {
+        "title": "NILA",
+        "influence": "large",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.nila.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "restaurant-u-cedru",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
       },
-      {
-        "href": "https://formulae.total.cz/",
-        "label": "Formule-e"
+      "delete": false,
+      "content": {
+        "title": "Restaurant U Cedru",
+        "influence": "large",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "http://www.ucedru.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "karibu",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
       },
-      {
-        "href": "https://dakar.total.cz/",
-        "label": "Dakar"
+      "delete": false,
+      "content": {
+        "title": "Karibu",
+        "influence": "smaller",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "http://karibu.cz/",
+            "label": "Visit"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "title": "Olikla",
-    "influence": "large",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.olikla.cz/",
-        "label": "Olikla"
+    },
+    {
+      "id": "iq-energy",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
       },
-      {
-        "href": "https://www.czpharma.cz/",
-        "label": "CZ Pharma"
+      "delete": false,
+      "content": {
+        "title": "IQ Energy",
+        "influence": "smaller",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "http://www.iqenergy.cz/",
+            "label": "Visit"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "title": "Sprinkler Morning",
-    "influence": "moderate",
-    "subtitle": "Omnio Digital",
-    "content": "",
-    "links": [
-      {
-        "href": "http://www.sprinklermorning.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Celaskon",
-    "influence": "large",
-    "subtitle": "ShopUP",
-    "content": "Not launched. Yet.",
-    "links": [
-      {
-        "href": "http://celaskon.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Technisféra",
-    "influence": "large",
-    "subtitle": "ShopUP",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.technisfera.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Senzakup",
-    "influence": "smaller",
-    "subtitle": "ShopUP",
-    "content": "",
-    "links": [
-      {
-        "href": "http://www.senzakup.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Skiandbike",
-    "influence": "smaller",
-    "subtitle": "ShopUP",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.skiandbike.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Korunni",
-    "influence": "smaller",
-    "subtitle": "ShopUP",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.korunni.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Fashion Arena shuttle bus",
-    "influence": "moderate",
-    "subtitle": "ShopUP",
-    "content": "",
-    "links": [
-      {
-        "href": "https://shuttlebus.fashion-arena.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Ovosan",
-    "influence": "smaller",
-    "subtitle": "ShopUP",
-    "content": "",
-    "links": [
-      {
-        "href": "https://jaknarakovinu.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Cesta z krize",
-    "influence": "moderate",
-    "subtitle": "ShopUP",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.linkaztracenedite.cz/",
-        "label": "Linka pro rodinu a školu"
+    },
+    {
+      "id": "teit-fitlab",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
       },
-      {
-        "href": "https://www.linkapsychickepomoci.cz/",
-        "label": "Linka první psychické pomoci"
+      "delete": false,
+      "content": {
+        "title": "Teit Fitlab",
+        "influence": "smaller",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.teit.cz/",
+            "label": "Visit"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "title": "Airbank",
-    "influence": "smaller",
-    "subtitle": "SiteOne",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.airbank.cz/",
-        "label": "Visit"
-      }
-    ]
-  },
-  {
-    "title": "Home Credit",
-    "influence": "moderate/smaller",
-    "subtitle": "SiteOne",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.homecredit.cz/",
-        "label": "Visit CZ"
+    },
+    {
+      "id": "lovesavage",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
       },
-      {
-        "href": "https://www.homecredit.sk/",
-        "label": "Visit SK"
+      "delete": false,
+      "content": {
+        "title": "Lovesavage",
+        "influence": "large",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "http://www.lovesavage.tv/",
+            "label": "Visit"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "title": "Blue Style",
-    "influence": "moderate",
-    "subtitle": "SiteOne",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.blue-style.cz/",
-        "label": "Visit"
+    },
+    {
+      "id": "total",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "TOTAL",
+        "influence": "moderate",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "https://novinky.total.cz/",
+            "label": "novinky"
+          },
+          {
+            "href": "https://motorsport.total.cz/",
+            "label": "motorsport"
+          },
+          {
+            "href": "https://formulae.total.cz/",
+            "label": "Formule-e"
+          },
+          {
+            "href": "https://dakar.total.cz/",
+            "label": "Dakar"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "title": "Dermacol",
-    "influence": "smaller",
-    "subtitle": "SiteOne",
-    "content": "",
-    "links": [
-      {
-        "href": "https://www.dermacol.cz/",
-        "label": "Visit"
+    },
+    {
+      "id": "olikla",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Olikla",
+        "influence": "large",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.olikla.cz/",
+            "label": "Olikla"
+          },
+          {
+            "href": "https://www.czpharma.cz/",
+            "label": "CZ Pharma"
+          }
+        ]
       }
-    ]
-  }
-]
+    },
+    {
+      "id": "sprinkler-morning",
+      "filter": {
+        "companyId": "omnio-digital",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Sprinkler Morning",
+        "influence": "moderate",
+        "subtitle": "Omnio Digital",
+        "body": "",
+        "links": [
+          {
+            "href": "http://www.sprinklermorning.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "celaskon",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Celaskon",
+        "influence": "large",
+        "subtitle": "ShopUP",
+        "body": "Not launched. Yet.",
+        "links": [
+          {
+            "href": "http://celaskon.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "technisfera",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Technisféra",
+        "influence": "large",
+        "subtitle": "ShopUP",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.technisfera.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "senzakup",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Senzakup",
+        "influence": "smaller",
+        "subtitle": "ShopUP",
+        "body": "",
+        "links": [
+          {
+            "href": "http://www.senzakup.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "skiandbike",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Skiandbike",
+        "influence": "smaller",
+        "subtitle": "ShopUP",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.skiandbike.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "korunni",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Korunni",
+        "influence": "smaller",
+        "subtitle": "ShopUP",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.korunni.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fashion-arena-shuttle-bus",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Fashion Arena shuttle bus",
+        "influence": "moderate",
+        "subtitle": "ShopUP",
+        "body": "",
+        "links": [
+          {
+            "href": "https://shuttlebus.fashion-arena.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ovosan",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Ovosan",
+        "influence": "smaller",
+        "subtitle": "ShopUP",
+        "body": "",
+        "links": [
+          {
+            "href": "https://jaknarakovinu.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cesta-z-krize",
+      "filter": {
+        "companyId": "shopup",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Cesta z krize",
+        "influence": "moderate",
+        "subtitle": "ShopUP",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.linkaztracenedite.cz/",
+            "label": "Linka pro rodinu a školu"
+          },
+          {
+            "href": "https://www.linkapsychickepomoci.cz/",
+            "label": "Linka první psychické pomoci"
+          }
+        ]
+      }
+    },
+    {
+      "id": "airbank",
+      "filter": {
+        "companyId": "siteone",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Airbank",
+        "influence": "smaller",
+        "subtitle": "SiteOne",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.airbank.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "home-credit",
+      "filter": {
+        "companyId": "siteone",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Home Credit",
+        "influence": "moderate/smaller",
+        "subtitle": "SiteOne",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.homecredit.cz/",
+            "label": "Visit CZ"
+          },
+          {
+            "href": "https://www.homecredit.sk/",
+            "label": "Visit SK"
+          }
+        ]
+      }
+    },
+    {
+      "id": "blue-style",
+      "filter": {
+        "companyId": "siteone",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Blue Style",
+        "influence": "moderate",
+        "subtitle": "SiteOne",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.blue-style.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dermacol",
+      "filter": {
+        "companyId": "siteone",
+        "age": 0,
+        "technology": "",
+        "job": ""
+      },
+      "delete": false,
+      "content": {
+        "title": "Dermacol",
+        "influence": "smaller",
+        "subtitle": "SiteOne",
+        "body": "",
+        "links": [
+          {
+            "href": "https://www.dermacol.cz/",
+            "label": "Visit"
+          }
+        ]
+      }
+    }
+  ],
+  "filter": [
+    {
+      "id": "omnio-digital",
+      "name": "Omnio Digital",
+      "checked": true
+    },
+    {
+      "id": "siteone",
+      "name": "SiteOne",
+      "checked": true
+    },
+    {
+      "id": "shopup",
+      "name": "ShopUP",
+      "checked": true
+    },
+    {
+      "id": "zaraguza",
+      "name": "Zaraguza",
+      "checked": false
+    }
+  ]
+}
