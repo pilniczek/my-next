@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'next/router';
 import {
-  arrayOf, string, oneOfType, node, object,
+  arrayOf, string, oneOfType, node, object, shape,
 } from 'prop-types';
 import uniId from '../utils/uniId';
 
@@ -31,7 +31,7 @@ ActiveLink.propTypes = {
   ]).isRequired,
   href: string.isRequired,
   className: string.isRequired,
-  router: object.isRequired,
+  router: shape(object.isRequired).isRequired,
 };
 
 export default withRouter(ActiveLink);
