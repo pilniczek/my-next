@@ -15,7 +15,7 @@ const init = {
       shopup: true,
       zaraguza: false,
       recent: true,
-      aging: false,
+      aging: true,
       old: false,
     },
     checked: {
