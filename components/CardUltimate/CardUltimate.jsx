@@ -12,11 +12,11 @@ const CardUltimate = ({
     return (
       <div className={`${className}`} id={id} company={company} age={age}>
         <div className="card mb-4">
-          <h4 className="card-header">
+          <h4 className="card-header p-3">
             {title}
           </h4>
-          <div className="card-body">
-            <span className="card-subtitle text-muted">
+          <div className="card-body px-3 pt-3 pb-2">
+            <span className="card-subtitle text-muted mb-2">
               <i>
                 {`${subtitle}, ${influence} influence, ${age} project`}
               </i>
@@ -31,7 +31,7 @@ const CardUltimate = ({
                   label: item.label,
                 }))}
                 Component={({ href, label }) => (
-                  <a href={href} target="_blank" rel="noopener noreferrer" className="card-link">
+                  <a href={href} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-primary mb-2">
                     {label}
                   </a>
                 )}

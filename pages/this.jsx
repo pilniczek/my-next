@@ -6,7 +6,7 @@ import Quote from '../components/Quote';
 const Index = () => (
   <Layout>
     <div className="center">
-      <PageHeader title="this" />
+      <PageHeader title="This" />
       <div className="page-conent pb-4">
         <div className="container">
           <div className="row">
@@ -18,7 +18,7 @@ const Index = () => (
                 {'This page is just a pet project. A refresh of my knowledge of React.'}
               </p>
               <p>
-                {"You can find it's repo"}
+                {"You can find it's repo "}
                 <a
                   href="https://github.com/pilniczek/next"
                   target="_blank"
@@ -26,6 +26,7 @@ const Index = () => (
                 >
                   {'here'}
                 </a>
+                {'.'}
               </p>
             </div>
           </div>

@@ -13,11 +13,6 @@ const Layout = ({ children }) => (
     </Head>
     <style jsx global>
       {`
-        .navbar .nav-link { 
-          border-top: 0;
-          border-bottom: 0;
-          min-width: 60px;
-        }
         .bd-title {
           margin-top: 1rem;
           margin-bottom: .5rem;
@@ -27,7 +22,6 @@ const Layout = ({ children }) => (
           display: flex;
         }
         .card {
-          width: 200px;
           flex-grow: 1;
         }
         .card-body {
@@ -35,20 +29,14 @@ const Layout = ({ children }) => (
           justify-content: space-between;
           flex-direction: column;
         }
-        .card-links > .card-link {
-          display: block;
-          margin: 0;
-          padding: 0;
-        }
-        button {
-          background: transparent;
+        .card-links {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
         }
         html {
           overflow: -moz-scrollbars-vertical; 
           overflow-y: scroll;
-        }
-        html {
-          overflow-y:scroll;
         }
         .nav-item:hover {
           text-decoration: none;
@@ -61,6 +49,12 @@ const Layout = ({ children }) => (
         }
         p {
           font-size: 1.171875rem;
+        }
+        .btn {
+          min-width: 60px;
+        }
+        a:not(.nav-item):not(.btn) {
+          text-decoration: underline;
         }
         #__next {
           display: flex;
