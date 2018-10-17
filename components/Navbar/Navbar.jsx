@@ -3,6 +3,10 @@ import {
   bool, oneOfType, string, number, shape, func,
 } from 'prop-types';
 import ActiveLink from '../ActiveLink';
+import Iterator from '../Iterator';
+import data from '../../data/menu.json';
+
+const menu = data;
 
 const Navbar = ({ id, open, actions: { toggle } }) => {
   const handleClick = () => (toggle(id, open));
@@ -12,7 +16,9 @@ const Navbar = ({ id, open, actions: { toggle } }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
-        <span className="navbar-brand">Tomas Pilnaj</span>
+        <span className="navbar-brand">
+          {menu.brand}
+        </span>
         <button
           onClick={handleClick}
           className={`navbar-toggler ${collapsed}`}
@@ -25,18 +31,23 @@ const Navbar = ({ id, open, actions: { toggle } }) => {
         >
           <span className="navbar-toggler-icon" />
         </button>
-
         <div className={`collapse navbar-collapse ${showed}`} id="navbarColor02">
           <div className="navbar-nav mr-auto">
-            <ActiveLink href="/" className="nav-item">
-              <span className="nav-link">About</span>
-            </ActiveLink>
-            <ActiveLink href="/portfolio" className="nav-item">
-              <span className="nav-link">Portfolio</span>
-            </ActiveLink>
-            <ActiveLink href="/contact" className="nav-item">
-              <span className="nav-link">Contact</span>
-            </ActiveLink>
+            <Iterator
+              items={
+                menu.menu.map(item => ({
+                  children: item.label,
+                  href: item.link,
+                }))
+              }
+              Component={props => (
+                <ActiveLink {...props} className="nav-item">
+                  <span className="nav-link">
+                    {props.children}
+                  </span>
+                </ActiveLink>
+              )}
+            />
           </div>
         </div>
       </div>

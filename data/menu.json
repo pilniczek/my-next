@@ -1,0 +1,21 @@
+{
+  "brand": "Tomas Pilnaj",
+  "menu": [
+    {
+      "label": "About",
+      "link": "/"
+    },
+    {
+      "label": "Portfolio",
+      "link": "/portfolio"
+    },
+    {
+      "label": "Contact",
+      "link": "/contact"
+    },
+    {
+      "label": "This",
+      "link": "/this"
+    }
+  ]
+}

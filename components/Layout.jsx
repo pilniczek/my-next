@@ -68,6 +68,11 @@ const Layout = ({ children }) => (
           flex-direction: column;
           min-height: 100vh;
         }
+        @media (max-width: 991.98px){
+          .navbar-collapse.show {
+            padding-bottom: 10px !important;
+          }
+        }
       `}
     </style>
     <Navbar id="menu" />
