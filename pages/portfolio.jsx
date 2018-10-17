@@ -81,7 +81,7 @@ const Portfolio = () => (
       </div>
     </div>
     <div className="footer">
-      <Quote text="Do. Or do not. There is no try." author="Yoda" />
+      <Quote text="Do. Or do not. There is no try." author="Yoda, The Empire Strikes Back" />
     </div>
   </Layout>
 );

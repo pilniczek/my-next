@@ -43,7 +43,7 @@ const Contact = () => (
       </div>
     </div>
     <div className="footer">
-      <Quote text="I g-guess you guys aren't ready for that yet. But your kids are gonna love it." author="Marty McFly" />
+      <Quote text="I g-guess you guys aren't ready for that yet. But your kids are gonna love it." author="Marty McFly, Back to the Future" />
     </div>
   </Layout>
 );

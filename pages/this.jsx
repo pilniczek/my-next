@@ -6,30 +6,34 @@ import Quote from '../components/Quote';
 const Index = () => (
   <Layout>
     <div className="center">
-      <PageHeader title="Hi" />
+      <PageHeader title="this" />
       <div className="page-conent pb-4">
         <div className="container">
           <div className="row">
             <div className="col">
               <p>
-                {"I'm Tom. I develop and maintain several websites."}
+                {'What is this?'}
               </p>
               <p>
-                {'I mostly use Nette these days, but I also like other frameworks - React for example.'}
+                {'This page is just a pet project. A refresh of my knowledge of React.'}
               </p>
               <p>
-                {'I also worked as copywriter or webmaster, but I enjoy development the most.'}
+                {"You can find it's repo"}
+                <a
+                  href="https://github.com/pilniczek/next"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {'here'}
+                </a>
               </p>
-            </div>
-            <div className="col-auto">
-              <img src="../static/logo.jpg" alt="logo" />
             </div>
           </div>
         </div>
       </div>
     </div>
     <div className="footer">
-      <Quote text="Our work is never over!" author="Daft Punk, Interstella 5555" />
+      <Quote text="Say what you mean, mean what you say." author="Bob Cody, Interstate 60" />
     </div>
   </Layout>
 );
