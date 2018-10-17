@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { node, oneOfType, arrayOf } from 'prop-types';
 import Navbar from './Navbar';
+import Favicon from './Favicon';
 
 const Layout = ({ children }) => (
   <>
@@ -10,6 +11,7 @@ const Layout = ({ children }) => (
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <title>Tomas Pilnaj</title>
       <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css" />
+      <Favicon />
     </Head>
     <style jsx global>
       {`
