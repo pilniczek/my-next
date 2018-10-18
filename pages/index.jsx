@@ -1,10 +1,9 @@
 import React from 'react';
-import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
 import Quote from '../components/Quote';
 
 const Index = () => (
-  <Layout>
+  <>
     <div className="center">
       <PageHeader title="Hi" />
       <div className="page-conent pb-4">
@@ -31,7 +30,7 @@ const Index = () => (
     <div className="footer">
       <Quote text="Our work is never over!" author="Daft Punk, Interstella 5555" />
     </div>
-  </Layout>
+  </>
 );
 
 export default Index;

@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
 import Quote from '../components/Quote';
 
 
 const Contact = () => (
-  <Layout>
+  <>
     <div className="center">
       <PageHeader title="Contact" />
       <div className="page-conent pb-4">
@@ -45,7 +44,7 @@ const Contact = () => (
     <div className="footer">
       <Quote text="I g-guess you guys aren't ready for that yet. But your kids are gonna love it." author="Marty McFly, Back to the Future" />
     </div>
-  </Layout>
+  </>
 );
 
 export default Contact;

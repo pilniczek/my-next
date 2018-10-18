@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../components/Layout';
 import Iterator from '../components/Iterator';
 import PageHeader from '../components/PageHeader';
 import CardUltimate from '../components/CardUltimate';
@@ -10,7 +9,7 @@ import data from '../data/portfolio.json';
 const { portfolio, filterCompany, filterAge } = data;
 
 const Portfolio = () => (
-  <Layout>
+  <>
     <div className="center">
       <PageHeader title="Portfolio" />
       <div className="filter pb-4">
@@ -83,7 +82,7 @@ const Portfolio = () => (
     <div className="footer">
       <Quote text="Do. Or do not. There is no try." author="Yoda, The Empire Strikes Back" />
     </div>
-  </Layout>
+  </>
 );
 
 export default Portfolio;
