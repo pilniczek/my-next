@@ -512,19 +512,19 @@
   "filterAge": [
     {
       "id": "recent",
-      "name": "recent",
+      "name": "RECENT",
       "num": 0.5,
       "checked": true
     },
     {
       "id": "aging",
-      "name": "aging",
+      "name": "AGING",
       "num": 1,
       "checked": true
     },
     {
       "id": "old",
-      "name": "old",
+      "name": "OLD",
       "num": 2,
       "checked": false
     }
