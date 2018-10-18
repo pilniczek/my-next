@@ -427,7 +427,7 @@
       "delete": false,
       "content": {
         "title": "Home Credit",
-        "influence": "moderate/smaller",
+        "influence": "smaller",
         "subtitle": "SiteOne",
         "body": "",
         "links": [
@@ -527,6 +527,23 @@
       "name": "OLD",
       "num": 2,
       "checked": false
+    }
+  ],
+  "filterInfluence": [
+    {
+      "id": "large",
+      "name": "Large",
+      "checked": true
+    },
+    {
+      "id": "moderate",
+      "name": "Moderate",
+      "checked": true
+    },
+    {
+      "id": "smaller",
+      "name": "Smaller",
+      "checked": true
     }
   ]
 }

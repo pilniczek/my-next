@@ -17,6 +17,9 @@ const init = {
       recent: true,
       aging: true,
       old: false,
+      large: true,
+      moderate: true,
+      smaller: true,
     },
     checked: {
       'omnio-digital': true,
@@ -26,6 +29,9 @@ const init = {
       recent: true,
       aging: true,
       old: false,
+      large: true,
+      moderate: true,
+      smaller: true,
     },
   },
 };
