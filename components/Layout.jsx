@@ -71,6 +71,16 @@ const Layout = ({ children }) => (
             padding-bottom: 10px !important;
           }
         }
+        .container {
+          background-color: $white;
+          max-width: 100%;
+          width: 100%;
+        }
+        @media (min-width: 1140px) {
+          .container {
+            max-width: 1140px;
+          }
+        }
       `}
     </style>
     <Navbar id="menu" />
