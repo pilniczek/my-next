@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { node, oneOfType, arrayOf } from 'prop-types';
 import Navbar from './Navbar';
 import Favicon from './Favicon';
+import OG from './OG';
 
 const Layout = ({ children }) => (
   <>
@@ -12,6 +13,7 @@ const Layout = ({ children }) => (
       <title>Tomas Pilnaj</title>
       <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css" />
       <Favicon />
+      <OG />
     </Head>
     <style jsx global>
       {`
