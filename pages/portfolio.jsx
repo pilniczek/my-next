@@ -12,11 +12,13 @@ const Portfolio = () => (
   <>
     <div className="center">
       <PageHeader title="Portfolio" />
-      <div className="filter pb-4">
+      <div className="filter pb-2">
         <div className="container">
-          <div className="row">
+          <div className="row pb-2">
             <div className="col-12">
-              <p className="lead">Projects by a company I worked for.</p>
+              <p className="lead mb-1">
+                {'Projects by a company I worked for.'}
+              </p>
             </div>
             <Iterator
               items={
@@ -33,9 +35,11 @@ const Portfolio = () => (
               )}
             />
           </div>
-          <div className="row">
+          <div className="row pb-2">
             <div className="col-12">
-              <p className="lead">Projects by age.</p>
+              <p className="lead mb-1">
+                {'Projects by age.'}
+              </p>
             </div>
             <Iterator
               items={
