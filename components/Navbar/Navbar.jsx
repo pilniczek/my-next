@@ -14,7 +14,7 @@ const Navbar = ({ id, open, actions: { toggle } }) => {
   const expanded = open ? 'true' : 'false';
   const collapsed = open ? 'collapsed' : '';
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary pl-0">
       <div className="container">
         <span className="navbar-brand">
           {menu.brand}
