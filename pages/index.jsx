@@ -10,15 +10,48 @@ const Index = () => (
         <div className="container">
           <div className="row">
             <div className="col">
-              <p>
-                {"I'm Tom. I develop and maintain several websites."}
-              </p>
-              <p>
-                {'I mostly use Nette these days, but I also like other frameworks - React for example.'}
-              </p>
-              <p>
-                {'I also worked as copywriter or webmaster, but I enjoy development the most.'}
-              </p>
+              <div className="row">
+                <div className="col">
+                  <p>
+                    {"I'm Tom. I develop and maintain several websites."}
+                  </p>
+                  <p>
+                    {'I mostly use Nette these days, but I also like other frameworks - React for example.'}
+                  </p>
+                  <p>
+                    {'I also worked as copywriter or webmaster, but I enjoy development the most.'}
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-1">
+                  <img src="../static/logo/html5.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/css3.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/js.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/react.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/github.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/redux.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/gulp.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/bootstrap.svg" alt="logo" />
+                </div>
+                <div className="col-1">
+                  <img src="../static/logo/font-awesome.svg" alt="logo" />
+                </div>
+              </div>
             </div>
             <div className="col-auto">
               <img src="../static/logo.jpg" alt="logo" />
