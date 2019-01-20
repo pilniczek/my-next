@@ -40,8 +40,36 @@ const checked = (state = {}, action = {}) => {
   }
 };
 
+const sliderIsRunning = (state = {}, action = {}) => {
+  switch (action.type) {
+    case types.SLIDER_IS_RUNNING: {
+      return Object.assign({}, state, {
+        [action.id]: action.setSliderIsRunning,
+      });
+    }
+    default: {
+      return state;
+    }
+  }
+};
+
+const displayedSlide = (state = {}, action = {}) => {
+  switch (action.type) {
+    case types.DISPLAYED_SLIDE: {
+      return Object.assign({}, state, {
+        [action.id]: action.setDisplayedSlide,
+      });
+    }
+    default: {
+      return state;
+    }
+  }
+};
+
 export default combineReducers({
   toggle,
   visible,
   checked,
+  sliderIsRunning,
+  displayedSlide,
 });

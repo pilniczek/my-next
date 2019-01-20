@@ -1,6 +1,7 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
 import Quote from '../components/Quote';
+import Slider from '../components/Slider';
 
 const Index = () => (
   <>
@@ -23,6 +24,13 @@ const Index = () => (
                   </p>
                 </div>
               </div>
+              {/*
+              <div className="row">
+                <div className="col">
+                  <Slider id="my-first-slider" />
+                </div>
+              </div>
+              */}
               <div className="row">
                 <div className="col-1">
                   <img src="../static/logo/html5.svg" alt="logo" />

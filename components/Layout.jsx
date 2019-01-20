@@ -17,6 +17,39 @@ const Layout = ({ children }) => (
     </Head>
     <style jsx global>
       {`
+        .slider__wrapper {
+          position: relative;
+          display: block;
+          width: 100%;
+          min-height: 200px;
+          overflow: hidden;
+        }
+        .slider__inner {
+          position: absolute;
+          top: 0;
+          display: block;
+          min-height: 200px;
+          transition: left 200ms;
+        }
+        .slide {
+          float:left;
+          min-height: 200px;
+        }
+        .move__left {
+          position: absolute;
+          left:0;
+          bottom: 50%;
+        }
+        .move__right {
+          position: absolute;
+          right: 0;
+          bottom: 50%;
+        }
+        .dots__wrapper {
+          position: absolute;
+          right: 50%;
+          bottom: 0;
+        }
         .bd-title {
           margin-top: 1rem;
           margin-bottom: .5rem;
@@ -39,7 +72,7 @@ const Layout = ({ children }) => (
           flex-wrap: wrap;
         }
         html {
-          overflow: -moz-scrollbars-vertical; 
+          overflow: -moz-scrollbars-vertical;
           overflow-y: scroll;
         }
         .nav-item:hover {

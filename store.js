@@ -33,6 +33,12 @@ const init = {
       moderate: true,
       smaller: true,
     },
+    sliderIsRunning: {
+      'my-first-slider': false,
+    },
+    displayedSlide: {
+      'my-first-slider': 0,
+    },
   },
 };
 
