@@ -22,6 +22,7 @@ const Index = () => (
                   href="https://github.com/pilniczek/next"
                   target="_blank"
                   rel="noopener noreferrer"
+                  class="gtm-github"
                 >
                   {'here'}
                 </a>

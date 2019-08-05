@@ -15,6 +15,7 @@ const Contact = () => (
               href="https://cz.linkedin.com/in/tom-pilnaj"
               target="_blank"
               rel="noopener noreferrer"
+              class="gtm-linked"
             >
               {'LinkedIn'}
             </a>
@@ -22,7 +23,10 @@ const Contact = () => (
           </p>
           <p>
             {'Using an '}
-            <a href="mailto:pilnaj.t@gmail.com">
+            <a
+              href="mailto:pilnaj.t@gmail.com"
+              class="gtm-mail"
+            >
               {'e-mail'}
             </a>
             {' is much better.'}
@@ -33,6 +37,7 @@ const Contact = () => (
               href="https://twitter.com/pilniczek"
               target="_blank"
               rel="noopener noreferrer"
+              class="gtm-twitter"
             >
               {'Twitter'}
             </a>
